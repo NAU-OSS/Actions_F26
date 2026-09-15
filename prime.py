@@ -6,7 +6,7 @@ This is the code we built up in class, ending at the version from slide 17.
 
 def is_prime(number):
     """Return True if `number` is prime."""
-    if number < 1:
+    if number <= 1:
         return False
     for element in range(2, number):
         if number % element == 0:
