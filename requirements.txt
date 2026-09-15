@@ -1,0 +1,3 @@
+# No third-party dependencies yet: unittest is in the Python standard library.
+# The file exists so `pip install -r requirements.txt` in the workflow has
+# something to read, and so there is an obvious place to add dependencies later.
